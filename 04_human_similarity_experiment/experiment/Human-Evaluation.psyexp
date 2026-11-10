@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.2.4">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'age': '', 'gender': &quot;['', 'Male', 'Female', 'Other']&quot;, 'country of origin': '', 'do you have any photography or visual art experience?': &quot;['', 'Yes', 'No']&quot;}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="['images/originals_needed/106.jpg', 'images/originals_needed/150.jpg', 'images/originals_needed/162.jpg', 'images/originals_needed/845.jpg', 'images/originals_needed/1837.jpg', 'images/originals_needed/2516.jpg', 'images/originals_needed/2589.jpg', 'images/originals_needed/2892.jpg', 'images/originals_needed/3463.jpg', 'images/originals_needed/3791.jpg', 'images/originals_needed/4374.jpg', 'images/originals_needed/4785.jpg', 'images/originals_needed/5139.jpg', 'images/originals_needed/6864.jpg', 'images/originals_needed/7416.jpg', 'images/originals_needed/7701.jpg', 'images/originals_needed/7867.jpg', 'images/originals_needed/8201.jpg', 'images/originals_needed/8709.jpg', 'images/originals_needed/8791.jpg', 'images/originals_needed/9190.jpg', 'images/originals_needed/9273.jpg', 'images/originals_needed/9425.jpg', 'images/originals_needed/9482.jpg', 'images/originals_needed/9548.jpg', 'images/originals_needed/9580.jpg', 'images/originals_needed/10053.jpg', 'images/originals_needed/10237.jpg', 'images/originals_needed/11120.jpg', 'images/originals_needed/12363.jpg', 'images/originals_needed/12966.jpg', 'images/originals_needed/13275.jpg', 'images/originals_needed/13471.jpg', 'images/originals_needed/13978.jpg', 'images/originals_needed/18921.jpg', 'images/originals_needed/20682.jpg', 'images/originals_needed/20686.jpg', 'images/originals_needed/20771.jpg', 'images/originals_needed/21347.jpg', 'images/originals_needed/21678.jpg', 'images/originals_needed/23375.jpg', 'images/originals_needed/23379.jpg', 'images/originals_needed/23684.jpg', 'images/originals_needed/24102.jpg', 'images/originals_needed/24313.jpg', 'images/originals_needed/24838.jpg', 'images/originals_needed/26634.jpg', 'images/originals_needed/31628.jpg', 'images/originals_needed/32163.jpg', 'images/originals_needed/33625.jpg', 'images/originals_needed/33761.jpg', 'images/originals_needed/35072.jpg', 'images/originals_needed/35182.jpg', 'images/originals_needed/35507.jpg', 'images/originals_needed/44289.jpg', 'images/originals_needed/44321.jpg', 'images/originals_needed/45563.jpg', 'images/originals_needed/46416.jpg', 'images/originals_needed/51974.jpg', 'images/originals_needed/52602.jpg', 'images/originals_needed/55587.jpg', 'images/originals_needed/55938.jpg', 'images/originals_needed/59214.jpg', 'images/originals_needed/60583.jpg', 'images/originals_needed/60588.jpg', 'images/originals_needed/60745.jpg', 'images/originals_needed/62065.jpg', 'images/originals_needed/62168.jpg', 'images/originals_needed/64527.jpg', 'images/originals_needed/70123.jpg', 'images/originals_needed/70160.jpg', 'images/originals_needed/73221.jpg', 'images/originals_needed/74340.jpg', 'images/originals_needed/74403.jpg', 'images/originals_needed/75572.jpg', 'images/originals_needed/80815.jpg', 'images/originals_needed/81685.jpg', 'images/originals_needed/82345.jpg', 'images/originals_needed/85569.jpg', 'images/originals_needed/86213.jpg', 'images/originals_needed/92663.jpg', 'images/originals_needed/93210.jpg', 'images/originals_needed/95217.jpg', 'images/originals_needed/95281.jpg', 'images/originals_needed/96800.jpg', 'images/originals_needed/98088.jpg', 'images/originals_needed/100397.jpg', 'images/originals_needed/104023.jpg', 'images/originals_needed/105190.jpg', 'images/originals_needed/106183.jpg', 'images/originals_needed/106707.jpg', 'images/originals_needed/111547.jpg', 'images/originals_needed/112993.jpg', 'images/originals_needed/118238.jpg', 'images/originals_needed/129910.jpg', 'images/originals_needed/142717.jpg', 'images/originals_needed/146420.jpg', 'images/originals_needed/151108.jpg', 'images/originals_needed/151628.jpg', 'images/originals_needed/152095.jpg', 'images/originals_needed/154133.jpg', 'images/originals_needed/158188.jpg', 'images/originals_needed/161996.jpg', 'images/originals_needed/162251.jpg', 'images/originals_needed/167612.jpg', 'images/originals_needed/170254.jpg', 'images/originals_needed/175666.jpg', 'images/originals_needed/181188.jpg', 'images/originals_needed/182112.jpg', 'images/originals_needed/182657.jpg', 'images/originals_needed/184714.jpg', 'images/originals_needed/187930.jpg', 'images/originals_needed/200460.jpg', 'images/originals_needed/202320.jpg', 'images/originals_needed/202870.jpg', 'images/originals_needed/205140.jpg', 'images/originals_needed/206282.jpg', 'images/originals_needed/210609.jpg', 'images/originals_needed/212523.jpg', 'images/originals_needed/213464.jpg', 'images/originals_needed/219683.jpg', 'images/originals_needed/224501.jpg', 'images/originals_needed/224554.jpg', 'images/originals_needed/230418.jpg', 'images/originals_needed/234535.jpg', 'images/originals_needed/236562.jpg', 'images/originals_needed/244379.jpg', 'images/originals_needed/245934.jpg', 'images/originals_needed/254035.jpg', 'images/originals_needed/257327.jpg', 'images/originals_needed/260639.jpg', 'images/originals_needed/262355.jpg', 'images/originals_needed/267110.jpg', 'images/originals_needed/269775.jpg', 'images/originals_needed/271059.jpg', 'images/originals_needed/271336.jpg', 'images/originals_needed/271488.jpg', 'images/originals_needed/281626.jpg', 'images/originals_needed/282357.jpg', 'images/originals_needed/284583.jpg', 'images/originals_needed/288838.jpg', 'images/originals_needed/297417.jpg', 'images/originals_needed/304135.jpg', 'images/originals_needed/310485.jpg', 'images/originals_needed/311346.jpg', 'images/originals_needed/315045.jpg', 'images/originals_needed/316215.jpg', 'images/originals_needed/316307.jpg', 'images/originals_needed/321020.jpg', 'images/originals_needed/322092.jpg', 'images/originals_needed/324088.jpg', 'images/originals_needed/328322.jpg', 'images/originals_needed/331127.jpg', 'images/originals_needed/332710.jpg', 'images/originals_needed/333630.jpg', 'images/originals_needed/335951.jpg', 'images/originals_needed/338938.jpg', 'images/originals_needed/340665.jpg', 'images/originals_needed/347044.jpg', 'images/originals_needed/354075.jpg', 'images/originals_needed/364795.jpg', 'images/originals_needed/365807.jpg', 'images/originals_needed/375809.jpg', 'images/originals_needed/378166.jpg', 'images/originals_needed/379860.jpg', 'images/originals_needed/382368.jpg', 'images/originals_needed/385155.jpg', 'images/originals_needed/386696.jpg', 'images/originals_needed/391314.jpg', 'images/originals_needed/391422.jpg', 'images/originals_needed/404406.jpg', 'images/originals_needed/404498.jpg', 'images/originals_needed/409812.jpg', 'images/originals_needed/412313.jpg', 'images/originals_needed/421771.jpg', 'images/originals_needed/424359.jpg', 'images/originals_needed/424449.jpg', 'images/originals_needed/432920.jpg', 'images/originals_needed/449235.jpg', 'images/originals_needed/452849.jpg', 'images/originals_needed/460138.jpg', 'images/originals_needed/468444.jpg', 'images/originals_needed/471810.jpg', 'images/originals_needed/477472.jpg', 'images/originals_needed/478531.jpg', 'images/originals_needed/478905.jpg', 'images/originals_needed/490999.jpg', 'images/originals_needed/491369.jpg', 'images/originals_needed/491860.jpg', 'images/originals_needed/493189.jpg', 'images/originals_needed/494261.jpg', 'images/originals_needed/501841.jpg', 'images/originals_needed/502691.jpg', 'images/originals_needed/506212.jpg', 'images/originals_needed/509164.jpg', 'images/originals_needed/509400.jpg', 'images/originals_needed/511442.jpg', 'images/originals_needed/516715.jpg', 'images/originals_needed/524086.jpg', 'images/originals_needed/526883.jpg', 'images/originals_needed/536211.jpg', 'images/originals_needed/538345.jpg', 'images/originals_needed/538845.jpg', 'images/originals_needed/543104.jpg', 'images/originals_needed/550619.jpg', 'images/originals_needed/569876.jpg', 'images/originals_needed/575469.jpg', 'images/originals_needed/575515.jpg', 'images/originals_needed/604740.jpg', 'images/originals_needed/619746.jpg', 'images/originals_needed/623459.jpg', 'images/originals_needed/623645.jpg', 'images/originals_needed/623703.jpg', 'images/originals_needed/624606.jpg', 'images/originals_needed/641334.jpg', 'images/originals_needed/642962.jpg', 'images/originals_needed/649485.jpg', 'images/originals_needed/650596.jpg', 'images/originals_needed/659202.jpg', 'images/originals_needed/669367.jpg', 'images/originals_needed/676523.jpg', 'images/originals_needed/679749.jpg', 'images/originals_needed/683341.jpg', 'images/originals_needed/685066.jpg', 'images/originals_needed/687274.jpg', 'images/originals_needed/693398.jpg', 'images/originals_needed/698076.jpg', 'images/originals_needed/704494.jpg', 'images/originals_needed/710917.jpg', 'images/originals_needed/713942.jpg', 'images/originals_needed/716381.jpg', 'images/originals_needed/721906.jpg', 'images/originals_needed/723297.jpg', 'images/originals_needed/723480.jpg', 'images/originals_needed/725129.jpg', 'images/originals_needed/727495.jpg', 'images/originals_needed/738537.jpg', 'images/originals_needed/739685.jpg', 'images/originals_needed/742675.jpg', 'images/originals_needed/745204.jpg', 'images/originals_needed/745635.jpg', 'images/originals_needed/747175.jpg', 'images/originals_needed/750117.jpg', 'images/originals_needed/758276.jpg', 'images/originals_needed/762843.jpg', 'images/originals_needed/764581.jpg', 'images/originals_needed/769605.jpg', 'images/originals_needed/770297.jpg', 'images/originals_needed/770432.jpg', 'images/originals_needed/771472.jpg', 'images/originals_needed/776681.jpg', 'images/originals_needed/780373.jpg', 'images/originals_needed/782420.jpg', 'images/originals_needed/793952.jpg', 'images/originals_needed/820923.jpg', 'images/originals_needed/821454.jpg', 'images/originals_needed/829060.jpg', 'images/originals_needed/830744.jpg', 'images/originals_needed/831802.jpg', 'images/originals_needed/834679.jpg', 'images/originals_needed/835590.jpg', 'images/originals_needed/835838.jpg', 'images/originals_needed/858475.jpg', 'images/originals_needed/861086.jpg', 'images/originals_needed/862470.jpg', 'images/originals_needed/867694.jpg', 'images/originals_needed/869672.jpg', 'images/originals_needed/874684.jpg', 'images/originals_needed/878987.jpg', 'images/originals_needed/885604.jpg', 'images/originals_needed/899376.jpg', 'images/originals_needed/899548.jpg', 'images/originals_needed/901323.jpg', 'images/originals_needed/903287.jpg', 'images/originals_needed/913046.jpg', 'images/originals_needed/918646.jpg', 'images/originals_needed/941726.jpg', 'images/originals_needed/947347.jpg', 'images/originals_needed/949475.jpg', 'images/originals_needed/952960.jpg', 'images/originals_needed/957023.jpg', 'images/originals_needed/957982.jpg', 'images/generated/106_generated.png', 'images/generated/150_generated.png', 'images/generated/162_generated.png', 'images/generated/845_generated.png', 'images/generated/1837_generated.png', 'images/generated/2516_generated.png', 'images/generated/2589_generated.png', 'images/generated/2892_generated.png', 'images/generated/3463_generated.png', 'images/generated/3791_generated.png', 'images/generated/4374_generated.png', 'images/generated/4785_generated.png', 'images/generated/5139_generated.png', 'images/generated/6864_generated.png', 'images/generated/7416_generated.png', 'images/generated/7701_generated.png', 'images/generated/7867_generated.png', 'images/generated/8201_generated.png', 'images/generated/8709_generated.png', 'images/generated/8791_generated.png', 'images/generated/9190_generated.png', 'images/generated/9273_generated.png', 'images/generated/9425_generated.png', 'images/generated/9482_generated.png', 'images/generated/9548_generated.png', 'images/generated/9580_generated.png', 'images/generated/10053_generated.png', 'images/generated/10237_generated.png', 'images/generated/11120_generated.png', 'images/generated/12363_generated.png', 'images/generated/12966_generated.png', 'images/generated/13275_generated.png', 'images/generated/13471_generated.png', 'images/generated/13978_generated.png', 'images/generated/18921_generated.png', 'images/generated/20682_generated.png', 'images/generated/20686_generated.png', 'images/generated/20771_generated.png', 'images/generated/21347_generated.png', 'images/generated/21678_generated.png', 'images/generated/23375_generated.png', 'images/generated/23379_generated.png', 'images/generated/23684_generated.png', 'images/generated/24102_generated.png', 'images/generated/24313_generated.png', 'images/generated/24838_generated.png', 'images/generated/26634_generated.png', 'images/generated/31628_generated.png', 'images/generated/32163_generated.png', 'images/generated/33625_generated.png', 'images/generated/33761_generated.png', 'images/generated/35072_generated.png', 'images/generated/35182_generated.png', 'images/generated/35507_generated.png', 'images/generated/44289_generated.png', 'images/generated/44321_generated.png', 'images/generated/45563_generated.png', 'images/generated/46416_generated.png', 'images/generated/51974_generated.png', 'images/generated/52602_generated.png', 'images/generated/55587_generated.png', 'images/generated/55938_generated.png', 'images/generated/59214_generated.png', 'images/generated/60583_generated.png', 'images/generated/60588_generated.png', 'images/generated/60745_generated.png', 'images/generated/62065_generated.png', 'images/generated/62168_generated.png', 'images/generated/64527_generated.png', 'images/generated/70123_generated.png', 'images/generated/70160_generated.png', 'images/generated/73221_generated.png', 'images/generated/74340_generated.png', 'images/generated/74403_generated.png', 'images/generated/75572_generated.png', 'images/generated/80815_generated.png', 'images/generated/81685_generated.png', 'images/generated/82345_generated.png', 'images/generated/85569_generated.png', 'images/generated/86213_generated.png', 'images/generated/92663_generated.png', 'images/generated/93210_generated.png', 'images/generated/95217_generated.png', 'images/generated/95281_generated.png', 'images/generated/96800_generated.png', 'images/generated/98088_generated.png', 'images/generated/100397_generated.png', 'images/generated/104023_generated.png', 'images/generated/105190_generated.png', 'images/generated/106183_generated.png', 'images/generated/106707_generated.png', 'images/generated/111547_generated.png', 'images/generated/112993_generated.png', 'images/generated/118238_generated.png', 'images/generated/129910_generated.png', 'images/generated/142717_generated.png', 'images/generated/146420_generated.png', 'images/generated/151108_generated.png', 'images/generated/151628_generated.png', 'images/generated/152095_generated.png', 'images/generated/154133_generated.png', 'images/generated/158188_generated.png', 'images/generated/161996_generated.png', 'images/generated/162251_generated.png', 'images/generated/167612_generated.png', 'images/generated/170254_generated.png', 'images/generated/175666_generated.png', 'images/generated/181188_generated.png', 'images/generated/182112_generated.png', 'images/generated/182657_generated.png', 'images/generated/184714_generated.png', 'images/generated/187930_generated.png', 'images/generated/200460_generated.png', 'images/generated/202320_generated.png', 'images/generated/202870_generated.png', 'images/generated/205140_generated.png', 'images/generated/206282_generated.png', 'images/generated/210609_generated.png', 'images/generated/212523_generated.png', 'images/generated/213464_generated.png', 'images/generated/219683_generated.png', 'images/generated/224501_generated.png', 'images/generated/224554_generated.png', 'images/generated/230418_generated.png', 'images/generated/234535_generated.png', 'images/generated/236562_generated.png', 'images/generated/244379_generated.png', 'images/generated/245934_generated.png', 'images/generated/254035_generated.png', 'images/generated/257327_generated.png', 'images/generated/260639_generated.png', 'images/generated/262355_generated.png', 'images/generated/267110_generated.png', 'images/generated/269775_generated.png', 'images/generated/271059_generated.png', 'images/generated/271336_generated.png', 'images/generated/271488_generated.png', 'images/generated/281626_generated.png', 'images/generated/282357_generated.png', 'images/generated/284583_generated.png', 'images/generated/288838_generated.png', 'images/generated/297417_generated.png', 'images/generated/304135_generated.png', 'images/generated/310485_generated.png', 'images/generated/311346_generated.png', 'images/generated/315045_generated.png', 'images/generated/316215_generated.png', 'images/generated/316307_generated.png', 'images/generated/321020_generated.png', 'images/generated/322092_generated.png', 'images/generated/324088_generated.png', 'images/generated/328322_generated.png', 'images/generated/331127_generated.png', 'images/generated/332710_generated.png', 'images/generated/333630_generated.png', 'images/generated/335951_generated.png', 'images/generated/338938_generated.png', 'images/generated/340665_generated.png', 'images/generated/347044_generated.png', 'images/generated/354075_generated.png', 'images/generated/364795_generated.png', 'images/generated/365807_generated.png', 'images/generated/375809_generated.png', 'images/generated/378166_generated.png', 'images/generated/379860_generated.png', 'images/generated/382368_generated.png', 'images/generated/385155_generated.png', 'images/generated/386696_generated.png', 'images/generated/391314_generated.png', 'images/generated/391422_generated.png', 'images/generated/404406_generated.png', 'images/generated/404498_generated.png', 'images/generated/409812_generated.png', 'images/generated/412313_generated.png', 'images/generated/421771_generated.png', 'images/generated/424359_generated.png', 'images/generated/424449_generated.png', 'images/generated/432920_generated.png', 'images/generated/449235_generated.png', 'images/generated/452849_generated.png', 'images/generated/460138_generated.png', 'images/generated/468444_generated.png', 'images/generated/471810_generated.png', 'images/generated/477472_generated.png', 'images/generated/478531_generated.png', 'images/generated/478905_generated.png', 'images/generated/490999_generated.png', 'images/generated/491369_generated.png', 'images/generated/491860_generated.png', 'images/generated/493189_generated.png', 'images/generated/494261_generated.png', 'images/generated/501841_generated.png', 'images/generated/502691_generated.png', 'images/generated/506212_generated.png', 'images/generated/509164_generated.png', 'images/generated/509400_generated.png', 'images/generated/511442_generated.png', 'images/generated/516715_generated.png', 'images/generated/524086_generated.png', 'images/generated/526883_generated.png', 'images/generated/536211_generated.png', 'images/generated/538345_generated.png', 'images/generated/538845_generated.png', 'images/generated/543104_generated.png', 'images/generated/550619_generated.png', 'images/generated/569876_generated.png', 'images/generated/575469_generated.png', 'images/generated/575515_generated.png', 'images/generated/604740_generated.png', 'images/generated/619746_generated.png', 'images/generated/623459_generated.png', 'images/generated/623645_generated.png', 'images/generated/623703_generated.png', 'images/generated/624606_generated.png', 'images/generated/641334_generated.png', 'images/generated/642962_generated.png', 'images/generated/649485_generated.png', 'images/generated/650596_generated.png', 'images/generated/659202_generated.png', 'images/generated/669367_generated.png', 'images/generated/676523_generated.png', 'images/generated/679749_generated.png', 'images/generated/683341_generated.png', 'images/generated/685066_generated.png', 'images/generated/687274_generated.png', 'images/generated/693398_generated.png', 'images/generated/698076_generated.png', 'images/generated/704494_generated.png', 'images/generated/710917_generated.png', 'images/generated/713942_generated.png', 'images/generated/716381_generated.png', 'images/generated/721906_generated.png', 'images/generated/723297_generated.png', 'images/generated/723480_generated.png', 'images/generated/725129_generated.png', 'images/generated/727495_generated.png', 'images/generated/738537_generated.png', 'images/generated/739685_generated.png', 'images/generated/742675_generated.png', 'images/generated/745204_generated.png', 'images/generated/745635_generated.png', 'images/generated/747175_generated.png', 'images/generated/750117_generated.png', 'images/generated/758276_generated.png', 'images/generated/762843_generated.png', 'images/generated/764581_generated.png', 'images/generated/769605_generated.png', 'images/generated/770297_generated.png', 'images/generated/770432_generated.png', 'images/generated/771472_generated.png', 'images/generated/776681_generated.png', 'images/generated/780373_generated.png', 'images/generated/782420_generated.png', 'images/generated/793952_generated.png', 'images/generated/820923_generated.png', 'images/generated/821454_generated.png', 'images/generated/829060_generated.png', 'images/generated/830744_generated.png', 'images/generated/831802_generated.png', 'images/generated/834679_generated.png', 'images/generated/835590_generated.png', 'images/generated/835838_generated.png', 'images/generated/858475_generated.png', 'images/generated/861086_generated.png', 'images/generated/862470_generated.png', 'images/generated/867694_generated.png', 'images/generated/869672_generated.png', 'images/generated/874684_generated.png', 'images/generated/878987_generated.png', 'images/generated/885604_generated.png', 'images/generated/899376_generated.png', 'images/generated/899548_generated.png', 'images/generated/901323_generated.png', 'images/generated/903287_generated.png', 'images/generated/913046_generated.png', 'images/generated/918646_generated.png', 'images/generated/941726_generated.png', 'images/generated/947347_generated.png', 'images/generated/949475_generated.png', 'images/generated/952960_generated.png', 'images/generated/957023_generated.png', 'images/generated/957982_generated.png', 'csv/stimuli.csv']" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="True" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1680, 1050]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="Human Evaluation of Image Similarity Judgments" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="///////////////////////////&amp;#10;// &quot;Before Experiment&quot; TAB&amp;#10;///////////////////////////&amp;#10;&amp;#10;// Declare globals&amp;#10;var CSV_FILE           = 'csv/stimuli.csv';&amp;#10;var ORIGINAL_FOLDER    = 'images/originals_needed/';&amp;#10;var GENERATED_FOLDER   = 'images/generated/';&amp;#10;&amp;#10;var CUSTOM_BINS        = [0.000,0.300,0.400,0.457,0.514,0.571,0.629,0.686,0.743,0.800,1.000];&amp;#10;var BIN_LABELS         = CUSTOM_BINS.slice(0,-1)&amp;#10;                            .map((b,i) =&gt; b.toFixed(2) + '-' + CUSTOM_BINS[i+1].toFixed(2));&amp;#10;&amp;#10;var NUM_TRIALS         = 282;&amp;#10;var NUM_REVERSALS      = 6;&amp;#10;var MIN_TRIALS         = 60;&amp;#10;var STEPSIZE           = 1;&amp;#10;&amp;#10;// **NEW: trial‐by‐trial state**  &amp;#10;var image1_path    = &quot;&quot;;  &amp;#10;var image2_path    = &quot;&quot;;  &amp;#10;var info_str       = &quot;&quot;;  &amp;#10;var currentRow     = null;  &amp;#10;&amp;#10;// Dataframe and bin structures&amp;#10;var df                  = [];&amp;#10;var possibleValues      = [];&amp;#10;var binsToIndices       = {};&amp;#10;var imgOrderPerBin      = {};&amp;#10;var usedIdxInBin        = {};&amp;#10;var usedGlobalIndices   = new Set();&amp;#10;&amp;#10;// Staircase containers&amp;#10;var staircases, whichStairIndex;&amp;#10;// NEW: record which staircase we used each trial&amp;#10;var stairIndices = [];&amp;#10;// Logging arrays&amp;#10;var history       = [];&amp;#10;var responses     = [];&amp;#10;var reaction_times= [];&amp;#10;var key_presses   = [];&amp;#10;var orig_lefts    = [];&amp;#10;var shownRows     = [];&amp;#10;&amp;#10;// Utility: CSV parser&amp;#10;function parseCSV(text) {&amp;#10;    let lines   = text.trim().split(/\r?\n/);&amp;#10;    let headers = lines.shift().split(',');&amp;#10;    return lines.map(line =&gt; {&amp;#10;        let cols = line.split(',');&amp;#10;        let obj  = {};&amp;#10;        headers.forEach((h,i) =&gt; obj[h] = cols[i]);&amp;#10;        obj.clip_similarity = parseFloat(obj.clip_similarity);&amp;#10;        return obj;&amp;#10;    });&amp;#10;}&amp;#10;&amp;#10;// Utility: Fisher–Yates shuffle&amp;#10;function shuffle(array) {&amp;#10;    let a = array.slice();&amp;#10;    for (let i = a.length - 1; i &gt; 0; i--) {&amp;#10;        const j = Math.floor(Math.random() * (i + 1));&amp;#10;        [a[i], a[j]] = [a[j], a[i]];&amp;#10;    }&amp;#10;    return a;&amp;#10;}&amp;#10;&amp;#10;// Load &amp; preprocess CSV&amp;#10;fetch(CSV_FILE)&amp;#10;  .then(resp =&gt; resp.text())&amp;#10;  .then(text =&gt; {&amp;#10;    df = parseCSV(text).filter(r =&gt; !isNaN(r.clip_similarity));&amp;#10;&amp;#10;    // Assign each row to a bin index&amp;#10;    df.forEach((row,i) =&gt; {&amp;#10;      for (let j = 0; j &lt; CUSTOM_BINS.length - 1; j++) {&amp;#10;        let low  = CUSTOM_BINS[j],&amp;#10;            high = CUSTOM_BINS[j+1];&amp;#10;        if ((row.clip_similarity &gt;= low &amp;&amp; row.clip_similarity &lt; high) ||&amp;#10;            (j===CUSTOM_BINS.length-2 &amp;&amp; row.clip_similarity===high)) {&amp;#10;          row.bin = j;&amp;#10;          break;&amp;#10;        }&amp;#10;      }&amp;#10;    });&amp;#10;&amp;#10;    // Collect &amp; sort available bin indexes&amp;#10;    possibleValues = [...new Set(df.map(r=&gt;r.bin))];&amp;#10;    possibleValues.sort((a,b)=&gt;a-b);&amp;#10;&amp;#10;    // Build per‐bin index lists, shuffle, cap at 10&amp;#10;   /* for (let b of possibleValues) {&amp;#10;      let allIdx = df&amp;#10;        .map((r,i)=&gt; r.bin===b ? i : -1)&amp;#10;        .filter(i=&gt;i!==-1);&amp;#10;      imgOrderPerBin[b] = shuffle(allIdx).slice(0,10);  // ← cap here&amp;#10;      usedIdxInBin[b]   = 0;&amp;#10;    }*/&amp;#10;    // Build per‐bin index lists and shuffle (no cap)&amp;#10;    for (let b of possibleValues) {&amp;#10;      let allIdx = df&amp;#10;        .map((r,i)=&gt; r.bin===b ? i : -1)&amp;#10;        .filter(i=&gt;i!==-1);&amp;#10;      imgOrderPerBin[b] = shuffle(allIdx);&amp;#10;      usedIdxInBin[b]   = 0;&amp;#10;    }&amp;#10;&amp;#10;    // Create two staircases&amp;#10;    function makeStair(startHigh) {&amp;#10;      let startIdx = startHigh&amp;#10;        ? possibleValues.indexOf(Math.max(...possibleValues))&amp;#10;        : possibleValues.indexOf(Math.min(...possibleValues));&amp;#10;      return {&amp;#10;        currentIndex:    startIdx,&amp;#10;        currentBin:      possibleValues[startIdx],&amp;#10;        prevResponse:    null,&amp;#10;        reversalIndices: [],&amp;#10;        trialCount:      0,&amp;#10;        finished:        false&amp;#10;      };&amp;#10;    }&amp;#10;    staircases      = [ makeStair(false), makeStair(true) ];&amp;#10;    whichStairIndex = 0;&amp;#10;});&amp;#10;" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="import pandas as pd&amp;#10;import random&amp;#10;import uuid&amp;#10;&amp;#10;CSV_FILE = 'csv/stimuli.csv'&amp;#10;ORIGINAL_FOLDER = 'images/originals_needed'&amp;#10;GENERATED_FOLDER = 'images/generated'&amp;#10;RESULTS_DIR = 'evaluation_results'&amp;#10;if not os.path.exists(RESULTS_DIR):&amp;#10;    os.makedirs(RESULTS_DIR)&amp;#10;&amp;#10;CUSTOM_BINS = [0.00, 0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 1.00]&amp;#10;BIN_LABELS = [f&quot;{CUSTOM_BINS[i]:.2f}-{CUSTOM_BINS[i+1]:.2f}&quot; for i in range(len(CUSTOM_BINS)-1)]&amp;#10;&amp;#10;NUM_TRIALS = 190&amp;#10;NUM_REVERSAL_TRIALS = 3&amp;#10;MINIMUM_NUM_TRIALS = 6&amp;#10;STEPSIZE = 1&amp;#10;&amp;#10;df = pd.read_csv(CSV_FILE)&amp;#10;df = df.dropna(subset=['clip_similarity'])&amp;#10;df['bin'] = -1&amp;#10;for i in range(len(CUSTOM_BINS)-1):&amp;#10;    if i == len(CUSTOM_BINS)-2:&amp;#10;        mask = (df['clip_similarity'] &gt;= CUSTOM_BINS[i]) &amp; (df['clip_similarity'] &lt;= CUSTOM_BINS[i+1])&amp;#10;    else:&amp;#10;        mask = (df['clip_similarity'] &gt;= CUSTOM_BINS[i]) &amp; (df['clip_similarity'] &lt; CUSTOM_BINS[i+1])&amp;#10;    df.loc[mask, 'bin'] = i&amp;#10;all_bin_ids = sorted(df['bin'].unique())&amp;#10;all_bin_ids = [b for b in all_bin_ids if b &gt;= 0]&amp;#10;bins_to_indices = {i: df.index[df['bin'] == i].tolist() for i in range(len(CUSTOM_BINS)-1)}&amp;#10;&amp;#10;possible_values = all_bin_ids&amp;#10;init_bin = min(all_bin_ids)&amp;#10;current_index = possible_values.index(init_bin)&amp;#10;current_bin = possible_values[current_index]&amp;#10;history = []&amp;#10;responses = []&amp;#10;reaction_times = []&amp;#10;key_presses = []&amp;#10;orig_lefts = []&amp;#10;reversal_indices = []&amp;#10;prev_response = None&amp;#10;trial_idx = 0&amp;#10;is_finished = False&amp;#10;random.seed()&amp;#10;img_order_per_bin = {k: random.sample(v, len(v)) for k,v in bins_to_indices.items()}&amp;#10;used_idx_in_bin = {k: 0 for k in bins_to_indices}&amp;#10;used_global_indices = set()&amp;#10;user_age = expInfo['age']&amp;#10;user_gender = expInfo['gender']&amp;#10;user_id = str(uuid.uuid4())[:6]&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="///////////////////////&amp;#10;// &quot;Begin Routine&quot; TAB&amp;#10;///////////////////////&amp;#10;&amp;#10;// Reset resize flag&amp;#10;image1Resized = false;&amp;#10;&amp;#10;// Select the active staircase&amp;#10;var sc = staircases[whichStairIndex];&amp;#10;currentIndex = sc.currentIndex;   // for legacy code below&amp;#10;currentBin   = sc.currentBin;&amp;#10;&amp;#10;// Build list of candidate bins (staircase‐style expanding)&amp;#10;let candidateBins = [ currentBin ];&amp;#10;let max_offset    = Math.max(...possibleValues.map(b =&gt; Math.abs(b - currentBin)));&amp;#10;for (let offset = 1; offset &lt;= max_offset; offset++) {&amp;#10;  let down = currentBin - offset,&amp;#10;      up   = currentBin + offset;&amp;#10;  if (possibleValues.includes(down)) candidateBins.push(down);&amp;#10;  if (possibleValues.includes(up))   candidateBins.push(up);&amp;#10;}&amp;#10;&amp;#10;// Find a new unused image index from these bins&amp;#10;let found = false, img_idx;&amp;#10;for (let b of candidateBins) {&amp;#10;  let idxs = imgOrderPerBin[b] || [];&amp;#10;  while (usedIdxInBin[b] &lt; idxs.length) {&amp;#10;    img_idx = idxs[ usedIdxInBin[b]++ ];&amp;#10;    if (!usedGlobalIndices.has(img_idx)) {&amp;#10;      usedGlobalIndices.add(img_idx);&amp;#10;      found = true;&amp;#10;      break;&amp;#10;    }&amp;#10;  }&amp;#10;  if (found) break;&amp;#10;}&amp;#10;&amp;#10;// If no image found, mark this staircase finished&amp;#10;if (!found || img_idx === undefined || !df[img_idx]) {&amp;#10;  sc.finished = true;&amp;#10;&amp;#10;  // If both staircases are done, end the loop&amp;#10;  if (staircases.every(s =&gt; s.finished)) {&amp;#10;    trials.finished = true;&amp;#10;  }&amp;#10;  continueRoutine = false;&amp;#10;  currentRow      = null;&amp;#10;} &amp;#10;else {&amp;#10;  // Otherwise set up the trial normally&amp;#10;  currentRow = df[img_idx];&amp;#10;  shownRows.push(currentRow);&amp;#10;&amp;#10;  let origPath = ORIGINAL_FOLDER + currentRow.original_image;&amp;#10;  let genPath  = GENERATED_FOLDER  + currentRow.generated_image;&amp;#10;  let origLeft = Math.random() &lt; 0.5;&amp;#10;&amp;#10;  image1_path = origLeft ? origPath : genPath;&amp;#10;  image2_path = origLeft ? genPath  : origPath;&amp;#10;&amp;#10;  //info_str = `Bin: ${BIN_LABELS[currentRow.bin]} | Similarity: ${currentRow.clip_similarity.toFixed(3)} | Trial ${sc.trialCount+1}`;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# --- Pick next available image pair from current bin (search nearby bins if needed)&amp;#10;candidate_bins = [current_bin]&amp;#10;bin_range = possible_values&amp;#10;max_offset = max(abs(b - current_bin) for b in bin_range)&amp;#10;for offset in range(1, max_offset+1):&amp;#10;    down = current_bin - offset&amp;#10;    up = current_bin + offset&amp;#10;    if down in bin_range: candidate_bins.append(down)&amp;#10;    if up in bin_range: candidate_bins.append(up)&amp;#10;found_img = False&amp;#10;for try_bin in candidate_bins:&amp;#10;    idxs = img_order_per_bin.get(try_bin, [])&amp;#10;    while used_idx_in_bin.get(try_bin, 0) &lt; len(idxs):&amp;#10;        img_idx = idxs[used_idx_in_bin[try_bin]]&amp;#10;        used_idx_in_bin[try_bin] += 1&amp;#10;        if img_idx not in used_global_indices:&amp;#10;            found_img = True&amp;#10;            break&amp;#10;    if found_img:&amp;#10;        break&amp;#10;if not found_img:&amp;#10;    continueRoutine = False&amp;#10;    trials.finished = True&amp;#10;    is_finished = True&amp;#10;else:&amp;#10;    used_global_indices.add(img_idx)&amp;#10;    row = df.loc[img_idx]&amp;#10;    orig_path = os.path.join(ORIGINAL_FOLDER, row['original_image'])&amp;#10;    gen_path = os.path.join(GENERATED_FOLDER, row['generated_image'])&amp;#10;    orig_left = random.choice([True, False])&amp;#10;    if orig_left:&amp;#10;        image1_path = orig_path&amp;#10;        image2_path = gen_path&amp;#10;    else:&amp;#10;        image1_path = gen_path&amp;#10;        image2_path = orig_path&amp;#10;    info_str = f&quot;Bin: {BIN_LABELS[int(row['bin'])]}   |   Similarity: {row['clip_similarity']:.3f}   |   Trial {trial_idx+1}&quot;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="////////////////////&amp;#10;// &quot;Each Frame&quot; TAB&amp;#10;////////////////////&amp;#10;&amp;#10;// Helper to scale images&amp;#10;function scaleToFitBox(imgComponent, targetSize=[0.5,0.5]) {&amp;#10;  if (!imgComponent._image ||&amp;#10;      !imgComponent._image.complete ||&amp;#10;      imgComponent._image.naturalWidth === 0) {&amp;#10;    return;&amp;#10;  }&amp;#10;  let iw = imgComponent._image.naturalWidth,&amp;#10;      ih = imgComponent._image.naturalHeight,&amp;#10;      boxW = targetSize[0],&amp;#10;      boxH = targetSize[1],&amp;#10;      imageAspect = iw/ih,&amp;#10;      boxAspect   = boxW/boxH;&amp;#10;&amp;#10;  if (imageAspect &gt; boxAspect) {&amp;#10;    imgComponent.size = [ boxW, boxW/imageAspect ];&amp;#10;  } else {&amp;#10;    imgComponent.size = [ boxH*imageAspect, boxH ];&amp;#10;  }&amp;#10;}&amp;#10;&amp;#10;if (!image1Resized &amp;&amp; image1._image &amp;&amp; image2._image) {&amp;#10;  scaleToFitBox(image1, [0.5,0.5]);&amp;#10;  scaleToFitBox(image2, [0.5,0.5]);&amp;#10;  image1Resized = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="results = []&amp;#10;for i in range(trial_idx):&amp;#10;    results.append([&amp;#10;        user_age, user_gender,&amp;#10;        df.iloc[i]['original_image'],&amp;#10;        df.iloc[i]['generated_image'],&amp;#10;        df.iloc[i]['clip_similarity'],&amp;#10;        history[i] if i &lt; len(history) else '',&amp;#10;        'Similar' if responses[i] == 1 else 'Not Similar' if responses[i] == 0 else 'NoResp',&amp;#10;        reaction_times[i] if i &lt; len(reaction_times) else '',&amp;#10;        i+1,&amp;#10;        orig_lefts[i] if i &lt; len(orig_lefts) else '',&amp;#10;        key_presses[i] if i &lt; len(key_presses) else ''&amp;#10;    ])&amp;#10;results_headers = ['Age','Gender','OriginalImage','GeneratedImage','CLIPCosineSimilarity','Bin','Response','ReactionTime','Trial','OrigOnLeft','KeyPressed']&amp;#10;output_csv = os.path.join(RESULTS_DIR, f&quot;results_{user_id}.csv&quot;)&amp;#10;import pandas as pd&amp;#10;pd.DataFrame(results, columns=results_headers).to_csv(output_csv, index=False)&amp;#10;" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="///////////////////////////&amp;#10;// &quot;End Experiment&quot; TAB&amp;#10;///////////////////////////&amp;#10;&amp;#10;// Write out all trial‐wise data&amp;#10;for (let i = 0; i &lt; shownRows.length; i++) {&amp;#10;  psychoJS.experiment.addData(&quot;staircase&quot;, stairIndices[i]);&amp;#10;  psychoJS.experiment.addData(&quot;original_image&quot;,    shownRows[i].original_image);&amp;#10;  psychoJS.experiment.addData(&quot;generated_image&quot;,   shownRows[i].generated_image);&amp;#10;  psychoJS.experiment.addData(&quot;clip_similarity&quot;,   shownRows[i].clip_similarity);&amp;#10;  psychoJS.experiment.addData(&quot;response&quot;,          responses[i]);&amp;#10;  psychoJS.experiment.addData(&quot;reaction_time&quot;,     reaction_times[i]);&amp;#10;  psychoJS.experiment.addData(&quot;key_pressed&quot;,       key_presses[i]);&amp;#10;  psychoJS.experiment.addData(&quot;original_left&quot;,     orig_lefts[i]);&amp;#10;  psychoJS.experiment.nextEntry();&amp;#10;}&amp;#10;&amp;#10;// Add the questionnaire/ranking summary if present&amp;#10;if (window.rankingData) {&amp;#10;  psychoJS.experiment.addData(&quot;trial_type&quot;,    &quot;ranking_summary&quot;);&amp;#10;  psychoJS.experiment.addData(&quot;ranking_order&quot;, window.rankingData.ranking_order);&amp;#10;  psychoJS.experiment.addData(&quot;ranking_count&quot;, window.rankingData.ranking_count);&amp;#10;&amp;#10;  Object.keys(window.rankingData).forEach(key =&gt; {&amp;#10;    if (key.startsWith('factor_')) {&amp;#10;      psychoJS.experiment.addData(key, window.rankingData[key]);&amp;#10;    }&amp;#10;  });&amp;#10;  psychoJS.experiment.nextEntry();&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="////////////////////&amp;#10;// &quot;End Routine&quot; TAB&amp;#10;////////////////////&amp;#10;&amp;#10;let resp = null, kp='none', rt='';&amp;#10;&amp;#10;// Gather keyboard or mouse response as before&amp;#10;if (key_resp.keys) {&amp;#10;  let kl = Array.isArray(key_resp.keys) ? key_resp.keys : [key_resp.keys];&amp;#10;  if (kl.includes('right') || kl.includes('d')) {&amp;#10;    resp = 1; kp = kl.slice(-1)[0];&amp;#10;  } else if (kl.includes('left') || kl.includes('a')) {&amp;#10;    resp = 0; kp = kl.slice(-1)[0];&amp;#10;  }&amp;#10;  rt = Array.isArray(key_resp.rt) ? (key_resp.rt.slice(-1)[0] || '') : key_resp.rt;&amp;#10;}&amp;#10;else if (mouse_resp.clicked_name) {&amp;#10;  if (mouse_resp.clicked_name.includes('btn_sim'))     { resp = 1; kp = 'mouse_sim'; }&amp;#10;  else if (mouse_resp.clicked_name.includes('btn_notsim')) { resp = 0; kp = 'mouse_notsim'; }&amp;#10;  rt = (mouse_resp.times &amp;&amp; mouse_resp.times.length)&amp;#10;       ? mouse_resp.times.slice(-1)[0]&amp;#10;       : '';&amp;#10;}&amp;#10;&amp;#10;if (currentRow) {&amp;#10;  // Log global history&amp;#10;  history.push(currentRow.bin);&amp;#10;  responses.push(resp);&amp;#10;  reaction_times.push(rt);&amp;#10;  key_presses.push(kp);&amp;#10;  orig_lefts.push(image1_path.includes(currentRow.original_image));&amp;#10;&amp;#10;  // Update the active staircase&amp;#10;  var sc = staircases[whichStairIndex];&amp;#10;  sc.trialCount++;&amp;#10;&amp;#10;  // reversal detection&amp;#10;  if (sc.prevResponse !== null &amp;&amp; sc.prevResponse !== resp) {&amp;#10;    sc.reversalIndices.push(sc.trialCount - 1);&amp;#10;  }&amp;#10;  sc.prevResponse = resp;&amp;#10;&amp;#10;  // staircase step&amp;#10;  if (resp === 0) {&amp;#10;    sc.currentIndex = Math.min(sc.currentIndex + STEPSIZE, possibleValues.length - 1);&amp;#10;  } else {&amp;#10;    sc.currentIndex = Math.max(sc.currentIndex - STEPSIZE, 0);&amp;#10;  }&amp;#10;  sc.currentBin = possibleValues[ sc.currentIndex ];&amp;#10;&amp;#10;  // finish criterion&amp;#10;  /*if (sc.reversalIndices.length &gt;= NUM_REVERSALS &amp;&amp;&amp;#10;      sc.trialCount       &gt;= MIN_TRIALS) {&amp;#10;    sc.finished = true;&amp;#10;  }*/&amp;#10;  if (sc.reversalIndices.length &gt;= NUM_REVERSALS) {&amp;#10;    sc.finished = true;&amp;#10;  }&amp;#10;&amp;#10;  // alternate staircases&amp;#10;  //whichStairIndex = 1 - whichStairIndex;&amp;#10;  // RECORD which staircase this was&amp;#10;  stairIndices.push(whichStairIndex);&amp;#10;  // now alternate to the other staircase&amp;#10;  whichStairIndex = 1 - whichStairIndex;&amp;#10;&amp;#10;  /*// if both done, end loop&amp;#10;  if (staircases.every(s =&gt; s.finished)) {&amp;#10;    trials.finished = true;&amp;#10;  }*/&amp;#10;    // now check overall stop: both staircases reversed enough AND total trials ≥ MIN_TRIALS&amp;#10;  const bothReversed = staircases.every(s =&gt; s.reversalIndices.length &gt;= NUM_REVERSALS);&amp;#10;  const totalTrials  = staircases.reduce((sum, s) =&gt; sum + s.trialCount, 0);&amp;#10;  if (bothReversed &amp;&amp; totalTrials &gt;= MIN_TRIALS) {&amp;#10;    trials.finished = true;&amp;#10;  }&amp;#10;  &amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="resp = None&amp;#10;kp = None&amp;#10;rt = None&amp;#10;# --- Check keyboard first&amp;#10;if key_resp.keys:&amp;#10;    # key_resp.keys is a list if Force end of Routine is OFF, else a string if ON&amp;#10;    # key_resp.rt is a float if Force end of Routine is ON, else a list&amp;#10;    # Handle both&amp;#10;    key_list = key_resp.keys if isinstance(key_resp.keys, list) else [key_resp.keys]&amp;#10;    if 'right' in key_list or 'd' in key_list:&amp;#10;        resp = 1&amp;#10;        kp = key_list[-1]&amp;#10;    elif 'left' in key_list or 'a' in key_list:&amp;#10;        resp = 0&amp;#10;        kp = key_list[-1]&amp;#10;    if isinstance(key_resp.rt, list):&amp;#10;        rt = key_resp.rt[-1] if key_resp.rt else ''&amp;#10;    else:&amp;#10;        rt = key_resp.rt&amp;#10;&amp;#10;# --- Mouse response&amp;#10;elif mouse_resp.clicked_name:&amp;#10;    if 'btn_sim' in mouse_resp.clicked_name:&amp;#10;        resp = 1&amp;#10;        kp = 'mouse_sim'&amp;#10;    elif 'btn_notsim' in mouse_resp.clicked_name:&amp;#10;        resp = 0&amp;#10;        kp = 'mouse_notsim'&amp;#10;    rt = mouse_resp.times[-1] if hasattr(mouse_resp, 'times') and mouse_resp.times else ''&amp;#10;else:&amp;#10;    resp = None&amp;#10;    kp = 'none'&amp;#10;    rt = ''&amp;#10;&amp;#10;# Log&amp;#10;history.append(row['bin'])&amp;#10;responses.append(resp)&amp;#10;reaction_times.append(rt)&amp;#10;key_presses.append(kp)&amp;#10;orig_lefts.append(orig_left)&amp;#10;trial_idx += 1&amp;#10;&amp;#10;# --- STAIRCASE LOGIC ---&amp;#10;if prev_response is not None and resp is not None and prev_response != resp:&amp;#10;    reversal_indices.append(trial_idx-1)&amp;#10;prev_response = resp&amp;#10;if resp == 1:&amp;#10;    current_index = min(current_index + STEPSIZE, len(possible_values)-1)&amp;#10;elif resp == 0:&amp;#10;    current_index = max(current_index - STEPSIZE, 0)&amp;#10;current_bin = possible_values[current_index]&amp;#10;&amp;#10;if len(reversal_indices) &gt;= NUM_REVERSAL_TRIALS and trial_idx &gt;= MINIMUM_NUM_TRIALS:&amp;#10;    is_finished = True&amp;#10;    trials.finished = True&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="image1" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$image1_path" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.3, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <ImageComponent name="image2" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$image2_path" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0.3, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="trial_info_str" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="trial_info_str" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, +0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$info_str" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <MouseComponent name="mouse_resp" plugin="None">
+        <Param val="$[btn_sim, btn_notsim]" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="valid click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+      <TextComponent name="User_guide" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.02" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="User_guide" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="From Keybaord: Not Similar (←), Similar (→)" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'a','d','left','right'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <ButtonComponent name="btn_notsim" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="darkgrey" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arvo" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="btn_notsim" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="(-0.3, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="every click" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.3, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Not Similar" valType="str" updates="constant" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ButtonComponent>
+      <ButtonComponent name="btn_sim" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="False" valType="bool" updates="constant" name="bold"/>
+        <Param val="None" valType="color" updates="constant" name="borderColor"/>
+        <Param val="0" valType="num" updates="constant" name="borderWidth"/>
+        <Param val="" valType="extendedCode" updates="constant" name="callback"/>
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="darkgrey" valType="color" updates="constant" name="fillColor"/>
+        <Param val="Arvo" valType="str" updates="constant" name="font"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="constant" name="italic"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="btn_sim" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="oncePerClick"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="" valType="num" updates="constant" name="padding"/>
+        <Param val="(+0.3, -0.4)" valType="list" updates="constant" name="pos"/>
+        <Param val="every click" valType="str" updates="None" name="save"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.3, 0.08)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Similar" valType="str" updates="constant" name="text"/>
+        <Param val="button onset" valType="str" updates="constant" name="timeRelativeTo"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ButtonComponent>
+    </Routine>
+    <Routine name="UserInfo">
+      <RoutineSettingsComponent name="UserInfo" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="UserInfo" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Please answer the following questions." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Welcome">
+      <RoutineSettingsComponent name="Welcome" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Welcome" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Welcome!&amp;#10;&amp;#10;In each trial you’ll see two images side by side. Your task is to decide whether they’re Similar or Not Similar.&amp;#10;&amp;#10;Mouse: click the “Similar” or “Not Similar” button&amp;#10;&amp;#10;Keyboard: press → for Similar, ← for Not Similar&amp;#10;&amp;#10;When you’re ready, press SPACE (desktop) or tap anywhere on the screen (mobile) to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_welcome" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_welcome" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <MouseComponent name="mouse_continue" plugin="None">
+        <Param val="" valType="list" updates="constant" name="clickable"/>
+        <Param val="" valType="list" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="any click" valType="str" updates="constant" name="forceEndRoutineOnPress"/>
+        <Param val="mouse_continue" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="constant" name="newClicksOnly"/>
+        <Param val="on click" valType="str" updates="None" name="saveMouseState"/>
+        <Param val="name," valType="list" updates="constant" name="saveParamsClickable"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="False" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="mouse onset" valType="str" updates="constant" name="timeRelativeTo"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="thank_you">
+      <RoutineSettingsComponent name="thank_you" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="thank_you" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="Questionaire">
+      <RoutineSettingsComponent name="Questionaire" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Questionaire" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="ranking" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="// =============================================================================&amp;#10;// BEGIN EXPERIMENT TAB&amp;#10;// =============================================================================&amp;#10;// Initialize global variables for questionnaire&amp;#10;window.rankingComplete = false;&amp;#10;window.selectedItems = [];&amp;#10;window.rankingContainer = null;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="// =============================================================================&amp;#10;// BEGIN ROUTINE TAB&amp;#10;// =============================================================================&amp;#10;&amp;#10;// Reset questionnaire variables for this routine&amp;#10;window.rankingComplete = false;&amp;#10;window.selectedItems = [];&amp;#10;window.rankingContainer = null;&amp;#10;&amp;#10;// Define the ranking options&amp;#10;var rankingOptions = [&amp;#10;    &quot;Color and Texture&quot;,&amp;#10;    &quot;Contrast and Sharpness&quot;,&amp;#10;    &quot;Cleanliness and Distortion&quot;, &amp;#10;    &quot;Composition&quot;,&amp;#10;    &quot;Object Identification&quot;,&amp;#10;    &quot;Scene Category&quot;,&amp;#10;    &quot;Emotional Tone&quot;,&amp;#10;    &quot;Story Context&quot;,&amp;#10;    &quot;Relative Position of Elements&quot;&amp;#10;];&amp;#10;var rankingDescriptions = {&amp;#10;    &quot;Color and Texture&quot;: &quot;Refers to the surface quality and visual texture as well as color palette and hue relationships.&quot;,&amp;#10;    &quot;Contrast and Sharpness&quot;: &quot;How well-defined the edges and differences in luminance or color are in the image.&quot;,&amp;#10;    &quot;Cleanliness and Distortion&quot;: &quot;Amount of visual grain or pixel-level artifacts in the image.&quot;,&amp;#10;    &quot;Composition&quot;: &quot;Arrangement of visual elements including balance, alignment, and framing.&quot;,&amp;#10;    &quot;Object Identification&quot;: &quot;Ease with which objects in the image can be recognized or named.&quot;,&amp;#10;    &quot;Scene Category&quot;: &quot;General type or theme of the image (e.g., landscape, indoor, street).&quot;,&amp;#10;    &quot;Emotional Tone&quot;: &quot;Mood conveyed by the image (e.g., calm, eerie, joyful).&quot;,&amp;#10;    &quot;Story Context&quot;: &quot;Whether the image suggests a narrative or situation.&quot;,&amp;#10;    &quot;Relative Position of Elements&quot;: &quot;Spatial relationships between objects or parts of the image.&quot;&amp;#10;};&amp;#10;// Function to create the ranking interface&amp;#10;function createRankingInterface() {&amp;#10;    // Create main container&amp;#10;    rankingContainer = document.createElement('div');&amp;#10;    rankingContainer.id = 'rankingContainer';&amp;#10;    rankingContainer.style.cssText = `&amp;#10;        position: fixed;&amp;#10;        top: 50%;&amp;#10;        left: 50%;&amp;#10;        transform: translate(-50%, -50%);&amp;#10;        width: 90%;&amp;#10;        max-width: 800px;&amp;#10;        height: 80vh;&amp;#10;        background: white;&amp;#10;        border: 2px solid #333;&amp;#10;        border-radius: 10px;&amp;#10;        padding: 20px;&amp;#10;        box-shadow: 0 4px 20px rgba(0,0,0,0.3);&amp;#10;        font-family: Arial, sans-serif;&amp;#10;        overflow-y: auto;&amp;#10;        z-index: 1000;&amp;#10;    `;&amp;#10;&amp;#10;    // Create title&amp;#10;    var title = document.createElement('h2');&amp;#10;    title.textContent = 'What Influenced Your Choice?';&amp;#10;    title.style.cssText = `&amp;#10;        margin: 0 0 20px 0;&amp;#10;        text-align: center;&amp;#10;        color: #333;&amp;#10;        font-size: 24px;&amp;#10;    `;&amp;#10;&amp;#10;    // Create instructions&amp;#10;    var instructions = document.createElement('p');&amp;#10;    instructions.innerHTML = `&amp;#10;        &lt;strong&gt;Instructions:&lt;/strong&gt; Please check the boxes below to select the factors that influenced your image similarity judgments, in order of importance. &amp;#10;        Items will appear in your ranking list in the order you select them. You can uncheck items to remove them.&amp;#10;    `;&amp;#10;    instructions.style.cssText = `&amp;#10;        margin-bottom: 20px;&amp;#10;        color: #555;&amp;#10;        line-height: 1.4;&amp;#10;    `;&amp;#10;&amp;#10;    // Create checkbox container&amp;#10;    var checkboxContainer = document.createElement('div');&amp;#10;    checkboxContainer.style.cssText = `&amp;#10;        display: grid;&amp;#10;        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));&amp;#10;        gap: 10px;&amp;#10;        margin-bottom: 30px;&amp;#10;        padding: 15px;&amp;#10;        background: #f8f9fa;&amp;#10;        border-radius: 8px;&amp;#10;    `;&amp;#10;&amp;#10;    // Create checkboxes&amp;#10;    rankingOptions.forEach(function(option, index) {&amp;#10;        var checkboxDiv = document.createElement('div');&amp;#10;        checkboxDiv.style.cssText = `&amp;#10;            display: flex;&amp;#10;            align-items: center;&amp;#10;            padding: 8px;&amp;#10;            background: white;&amp;#10;            border-radius: 5px;&amp;#10;            border: 1px solid #ddd;&amp;#10;            cursor: pointer;&amp;#10;            transition: background-color 0.2s;&amp;#10;        `;&amp;#10;        &amp;#10;        var checkbox = document.createElement('input');&amp;#10;        checkbox.type = 'checkbox';&amp;#10;        checkbox.id = 'ranking_' + index;&amp;#10;        checkbox.value = option;&amp;#10;        checkbox.style.cssText = `&amp;#10;            margin-right: 10px;&amp;#10;            transform: scale(1.2);&amp;#10;            cursor: pointer;&amp;#10;        `;&amp;#10;        &amp;#10;        var label = document.createElement('label');&amp;#10;        label.textContent = option;&amp;#10;        label.htmlFor = 'ranking_' + index;&amp;#10;        label.style.cssText = `&amp;#10;            cursor: pointer;&amp;#10;            font-size: 14px;&amp;#10;            user-select: none;&amp;#10;        `;&amp;#10;        label.title = rankingDescriptions[option];&amp;#10;        // Add click handlers&amp;#10;        function toggleSelection() {&amp;#10;            if (checkbox.checked) {&amp;#10;                if (selectedItems.indexOf(option) === -1) {&amp;#10;                    selectedItems.push(option);&amp;#10;                    updateRankingDisplay();&amp;#10;                }&amp;#10;            } else {&amp;#10;                var idx = selectedItems.indexOf(option);&amp;#10;                if (idx &gt; -1) {&amp;#10;                    selectedItems.splice(idx, 1);&amp;#10;                    updateRankingDisplay();&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;        &amp;#10;        checkbox.addEventListener('change', toggleSelection);&amp;#10;        checkboxDiv.addEventListener('click', function(e) {&amp;#10;            if (e.target !== checkbox) {&amp;#10;                checkbox.checked = !checkbox.checked;&amp;#10;                toggleSelection();&amp;#10;            }&amp;#10;        });&amp;#10;        &amp;#10;        // Hover effects&amp;#10;        checkboxDiv.addEventListener('mouseenter', function() {&amp;#10;            checkboxDiv.style.backgroundColor = '#e3f2fd';&amp;#10;        });&amp;#10;        checkboxDiv.addEventListener('mouseleave', function() {&amp;#10;            checkboxDiv.style.backgroundColor = 'white';&amp;#10;        });&amp;#10;        &amp;#10;        checkboxDiv.appendChild(checkbox);&amp;#10;        checkboxDiv.appendChild(label);&amp;#10;        checkboxContainer.appendChild(checkboxDiv);&amp;#10;    });&amp;#10;&amp;#10;    // Create ranking display section&amp;#10;    var rankingSection = document.createElement('div');&amp;#10;    rankingSection.style.cssText = `margin-bottom: 20px;`;&amp;#10;&amp;#10;    var rankingTitle = document.createElement('h3');&amp;#10;    rankingTitle.textContent = 'Your Current Ranking:';&amp;#10;    rankingTitle.style.cssText = `&amp;#10;        margin: 0 0 10px 0;&amp;#10;        color: #333;&amp;#10;        font-size: 18px;&amp;#10;    `;&amp;#10;&amp;#10;    var rankingList = document.createElement('ol');&amp;#10;    rankingList.id = 'rankingList';&amp;#10;    rankingList.style.cssText = `&amp;#10;        background: #f0f8ff;&amp;#10;        padding: 15px 15px 15px 35px;&amp;#10;        border-radius: 8px;&amp;#10;        border: 2px dashed #2196F3;&amp;#10;        min-height: 100px;&amp;#10;        color: #333;&amp;#10;        font-size: 16px;&amp;#10;        line-height: 1.6;&amp;#10;    `;&amp;#10;&amp;#10;    // Create submit button&amp;#10;    var submitButton = document.createElement('button');&amp;#10;    submitButton.textContent = 'Continue to Complete';&amp;#10;    submitButton.style.cssText = `&amp;#10;        width: 100%;&amp;#10;        padding: 15px;&amp;#10;        background: #4CAF50;&amp;#10;        color: white;&amp;#10;        border: none;&amp;#10;        border-radius: 8px;&amp;#10;        font-size: 18px;&amp;#10;        font-weight: bold;&amp;#10;        cursor: pointer;&amp;#10;        transition: background-color 0.3s;&amp;#10;    `;&amp;#10;&amp;#10;    submitButton.addEventListener('mouseenter', function() {&amp;#10;        submitButton.style.backgroundColor = '#45a049';&amp;#10;    });&amp;#10;    submitButton.addEventListener('mouseleave', function() {&amp;#10;        submitButton.style.backgroundColor = '#4CAF50';&amp;#10;    });&amp;#10;&amp;#10;    submitButton.addEventListener('click', function() {&amp;#10;        // Store ranking data globally&amp;#10;        window.rankingData = {&amp;#10;            ranking_order: selectedItems.join(','),&amp;#10;            ranking_count: selectedItems.length,&amp;#10;            individual_ranks: {}&amp;#10;        };&amp;#10;        &amp;#10;        // Store individual rankings&amp;#10;        selectedItems.forEach(function(item, index) {&amp;#10;            window.rankingData.individual_ranks['rank_' + (index + 1)] = item;&amp;#10;        });&amp;#10;        &amp;#10;        // Store all factors with their ranks (0 if not selected)&amp;#10;        var allFactors = [&amp;#10;            &quot;Color and Texture&quot;, &quot;Contrast and Sharpness&quot;, &quot;Cleanliness and Distortion&quot;, &quot;Composition&quot;, &quot;Object Identification&quot;,&amp;#10;            &quot;Scene Category&quot;, &quot;Emotional Tone&quot;, &quot;Story Context&quot;, &quot;Relative Position of Elements&quot;&amp;#10;        ];&amp;#10;        &amp;#10;        allFactors.forEach(function(factor) {&amp;#10;            var rank = selectedItems.indexOf(factor) + 1;&amp;#10;            var key = 'factor_' + factor.replace(/\s+/g, '_').toLowerCase();&amp;#10;            window.rankingData[key] = rank &gt; 0 ? rank : 0;&amp;#10;        });&amp;#10;        &amp;#10;        // Clean up and continue&amp;#10;        if (rankingContainer &amp;&amp; rankingContainer.parentNode) {&amp;#10;            rankingContainer.parentNode.removeChild(rankingContainer);&amp;#10;        }&amp;#10;        document.body.style.overflow = 'auto';&amp;#10;        rankingComplete = true;&amp;#10;        continueRoutine = false;&amp;#10;    });&amp;#10;&amp;#10;    // Function to update ranking display&amp;#10;    window.updateRankingDisplay = function() {&amp;#10;        var rankingListElement = document.getElementById('rankingList');&amp;#10;        if (!rankingListElement) return;&amp;#10;        &amp;#10;        rankingListElement.innerHTML = '';&amp;#10;        &amp;#10;        if (selectedItems.length === 0) {&amp;#10;            var emptyMessage = document.createElement('li');&amp;#10;            emptyMessage.textContent = 'No items selected yet. Check boxes above to add items to your ranking.';&amp;#10;            emptyMessage.style.cssText = `&amp;#10;                color: #999;&amp;#10;                font-style: italic;&amp;#10;                list-style: none;&amp;#10;            `;&amp;#10;            rankingListElement.appendChild(emptyMessage);&amp;#10;        } else {&amp;#10;            selectedItems.forEach(function(item, index) {&amp;#10;                var listItem = document.createElement('li');&amp;#10;                listItem.textContent = item;&amp;#10;                listItem.style.cssText = `&amp;#10;                    margin-bottom: 5px;&amp;#10;                    padding: 5px;&amp;#10;                    background: white;&amp;#10;                    border-radius: 4px;&amp;#10;                    border-left: 4px solid #2196F3;&amp;#10;                `;&amp;#10;                rankingListElement.appendChild(listItem);&amp;#10;            });&amp;#10;        }&amp;#10;    };&amp;#10;&amp;#10;    // Assemble the interface&amp;#10;    rankingContainer.appendChild(title);&amp;#10;    rankingContainer.appendChild(instructions);&amp;#10;    rankingContainer.appendChild(checkboxContainer);&amp;#10;    rankingContainer.appendChild(rankingSection);&amp;#10;    rankingSection.appendChild(rankingTitle);&amp;#10;    rankingSection.appendChild(rankingList);&amp;#10;    rankingContainer.appendChild(submitButton);&amp;#10;&amp;#10;    // Add to page&amp;#10;    document.body.appendChild(rankingContainer);&amp;#10;    document.body.style.overflow = 'hidden';&amp;#10;&amp;#10;    // Initialize display&amp;#10;    updateRankingDisplay();&amp;#10;}&amp;#10;&amp;#10;// Create the interface when routine starts&amp;#10;createRankingInterface();" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="// =============================================================================&amp;#10;// EACH FRAME TAB&amp;#10;// =============================================================================&amp;#10;&amp;#10;// Check if ranking is complete&amp;#10;if (rankingComplete) {&amp;#10;    continueRoutine = false;&amp;#10;}" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="&amp;#10;// =============================================================================&amp;#10;// END ROUTINE TAB&amp;#10;// =============================================================================&amp;#10;&amp;#10;// Clean up if routine ends unexpectedly&amp;#10;if (rankingContainer &amp;&amp; rankingContainer.parentNode) {&amp;#10;    rankingContainer.parentNode.removeChild(rankingContainer);&amp;#10;    document.body.style.overflow = 'auto';&amp;#10;}" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="ranking" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <ImageComponent name="dummy" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="dummy" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="Consent">
+      <RoutineSettingsComponent name="Consent" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Consent" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="consentText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="consentText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Consent to Participate in Research&amp;#10;&amp;#10;You are invited to take part in a research study that investigates how people perceive similarity between images. In this study, you will be shown pairs of images and asked to judge their similarity. Afterward, you will be asked to rate which visual or semantic factors influenced your decisions.&amp;#10;&amp;#10;The study will also collect basic demographic information such as your age and gender. Your responses will be stored anonymously and used only for research purposes.&amp;#10;&amp;#10;Participation is voluntary, and you may withdraw at any time without any penalty. Your data will be kept confidential and used solely for academic analysis and potential publication.&amp;#10;&amp;#10;By checking the box below and continuing, you indicate that:&amp;#10;- You are at least 18 years old&amp;#10;- You understand the nature of the study&amp;#10;- You agree to participate voluntarily&amp;#10;&amp;#10;If you do not agree, please close the browser window now." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="ConsentForm">
+      <RoutineSettingsComponent name="ConsentForm" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="ConsentForm" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="ConsentCode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="window.consentGiven = false;&amp;#10;window.consentUIBuilt = false;&amp;#10;" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="// Set flag to block continuation until consent is given&amp;#10;window.userConsented = false;&amp;#10;continueRoutine = true;&amp;#10;&amp;#10;// Create container&amp;#10;const consentBox = document.createElement('div');&amp;#10;consentBox.id = 'consentBox';&amp;#10;consentBox.style.cssText = `&amp;#10;  position: fixed;&amp;#10;  top: 50%;&amp;#10;  left: 50%;&amp;#10;  transform: translate(-50%, -50%);&amp;#10;  width: 90%;&amp;#10;  max-width: 800px;&amp;#10;  background: #fff;&amp;#10;  border: 2px solid #333;&amp;#10;  border-radius: 10px;&amp;#10;  padding: 30px;&amp;#10;  box-shadow: 0 4px 15px rgba(0,0,0,0.2);&amp;#10;  font-family: Arial, sans-serif;&amp;#10;  z-index: 1000;&amp;#10;  overflow-y: auto;&amp;#10;  max-height: 80vh;&amp;#10;`;&amp;#10;&amp;#10;// Consent text&amp;#10;const consentText = document.createElement('p');&amp;#10;consentText.innerHTML = `&amp;#10;  &lt;strong&gt;Consent Form&lt;/strong&gt;&lt;br&gt;&lt;br&gt;&amp;#10;&amp;#10;You are invited to participate in a research study on how people perceive visual similarity between images. This study is part of an academic project investigating human aesthetic preferences and visual cognition.&lt;br&gt;&lt;br&gt;&amp;#10;&amp;#10;Participation involves viewing image pairs and making similarity judgments, followed by a short set of demographic questions (including age, gender, country of origin, and any background in photography or visual arts).&lt;br&gt;&lt;br&gt;&amp;#10;&amp;#10;Your participation is entirely voluntary, and you may withdraw at any time without penalty. No personally identifiable information (such as your name or contact details) will be collected. All responses will be stored securely and analyzed only in anonymized form.&lt;br&gt;&lt;br&gt;&amp;#10;&amp;#10;This research complies with the General Data Protection Regulation (GDPR) and institutional data privacy policies. Data will be used exclusively for academic research and not shared beyond the research team.&lt;br&gt;&lt;br&gt;&amp;#10;&amp;#10;By checking the box below, you confirm that:&amp;#10;&lt;ul&gt;&amp;#10;  &lt;li&gt;You are at least 18 years old&lt;/li&gt;&amp;#10;  &lt;li&gt;You understand the purpose and procedures of this study&lt;/li&gt;&amp;#10;  &lt;li&gt;You consent to participate voluntarily&lt;/li&gt;&amp;#10;&lt;/ul&gt;&amp;#10;&amp;#10;Thank you for your contribution to this research. Click &quot;I agree&quot; if you consent.&amp;#10;`;&amp;#10;consentText.style.cssText = `&amp;#10;  font-size: 16px;&amp;#10;  margin-bottom: 20px;&amp;#10;`;&amp;#10;&amp;#10;// Checkbox&amp;#10;const consentCheckbox = document.createElement('input');&amp;#10;consentCheckbox.type = 'checkbox';&amp;#10;consentCheckbox.id = 'consentCheckbox';&amp;#10;consentCheckbox.style.marginRight = '10px';&amp;#10;&amp;#10;const checkboxLabel = document.createElement('label');&amp;#10;checkboxLabel.textContent = 'I agree to participate in this study.';&amp;#10;checkboxLabel.htmlFor = 'consentCheckbox';&amp;#10;&amp;#10;// Continue button (initially disabled)&amp;#10;const continueBtn = document.createElement('button');&amp;#10;continueBtn.textContent = 'Continue';&amp;#10;continueBtn.disabled = true;  // ← DISABLED by default&amp;#10;continueBtn.style.cssText = `&amp;#10;  display: block;&amp;#10;  margin-top: 20px;&amp;#10;  padding: 10px 20px;&amp;#10;  background: #4CAF50;&amp;#10;  color: white;&amp;#10;  border: none;&amp;#10;  border-radius: 6px;&amp;#10;  font-size: 16px;&amp;#10;  cursor: not-allowed;&amp;#10;  opacity: 0.5;&amp;#10;`;&amp;#10;&amp;#10;// Enable button when checkbox is checked&amp;#10;consentCheckbox.addEventListener('change', function () {&amp;#10;  if (consentCheckbox.checked) {&amp;#10;    continueBtn.disabled = false;&amp;#10;    continueBtn.style.cursor = 'pointer';&amp;#10;    continueBtn.style.opacity = '1';&amp;#10;  } else {&amp;#10;    continueBtn.disabled = true;&amp;#10;    continueBtn.style.cursor = 'not-allowed';&amp;#10;    continueBtn.style.opacity = '0.5';&amp;#10;  }&amp;#10;});&amp;#10;&amp;#10;// Continue action&amp;#10;continueBtn.onclick = function () {&amp;#10;  window.userConsented = true;&amp;#10;  const el = document.getElementById('consentBox');&amp;#10;  if (el &amp;&amp; el.parentNode) el.parentNode.removeChild(el);&amp;#10;  document.body.style.overflow = 'auto';&amp;#10;};&amp;#10;&amp;#10;// Assemble UI&amp;#10;consentBox.appendChild(consentText);&amp;#10;consentBox.appendChild(consentCheckbox);&amp;#10;consentBox.appendChild(checkboxLabel);&amp;#10;consentBox.appendChild(continueBtn);&amp;#10;document.body.appendChild(consentBox);&amp;#10;document.body.style.overflow = 'hidden';&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if (!window.consentUIBuilt) {&amp;#10;    const consentContainer = document.createElement('div');&amp;#10;    consentContainer.id = 'consentContainer';&amp;#10;    consentContainer.style.cssText = `&amp;#10;        position: fixed;&amp;#10;        top: 10%;&amp;#10;        left: 50%;&amp;#10;        transform: translateX(-50%);&amp;#10;        width: 90%;&amp;#10;        max-width: 800px;&amp;#10;        background: white;&amp;#10;        border: 2px solid #555;&amp;#10;        border-radius: 10px;&amp;#10;        padding: 20px;&amp;#10;        font-family: Arial, sans-serif;&amp;#10;        z-index: 1000;&amp;#10;        box-shadow: 0 0 20px rgba(0,0,0,0.2);&amp;#10;        overflow-y: auto;&amp;#10;        max-height: 80vh;&amp;#10;    `;&amp;#10;&amp;#10;    const info = document.createElement('p');&amp;#10;    info.innerHTML = `&amp;#10;        &lt;strong&gt;Consent Form&lt;/strong&gt;&lt;br&gt;&lt;br&gt;&amp;#10;        You are invited to participate in this research study. Your responses will be anonymized and used only for academic purposes.&amp;#10;        By checking the box below, you confirm that you are at least 18 years old and you agree to participate voluntarily.&amp;#10;    `;&amp;#10;&amp;#10;    const checkboxDiv = document.createElement('div');&amp;#10;    const checkbox = document.createElement('input');&amp;#10;    checkbox.type = 'checkbox';&amp;#10;    checkbox.id = 'consentCheckbox';&amp;#10;    checkbox.style.cssText = 'margin-right: 10px; transform: scale(1.2);';&amp;#10;&amp;#10;    const label = document.createElement('label');&amp;#10;    label.htmlFor = 'consentCheckbox';&amp;#10;    label.textContent = 'I am 18 years or older and I agree to participate in the study.';&amp;#10;&amp;#10;    checkboxDiv.style.cssText = 'margin-bottom: 20px; display: flex; align-items: center;';&amp;#10;    checkboxDiv.appendChild(checkbox);&amp;#10;    checkboxDiv.appendChild(label);&amp;#10;&amp;#10;    const button = document.createElement('button');&amp;#10;    button.textContent = 'Continue';&amp;#10;    button.style.cssText = `&amp;#10;        padding: 12px 20px;&amp;#10;        background: #4CAF50;&amp;#10;        color: white;&amp;#10;        border: none;&amp;#10;        border-radius: 6px;&amp;#10;        font-size: 16px;&amp;#10;        cursor: pointer;&amp;#10;    `;&amp;#10;&amp;#10;    button.onclick = () =&gt; {&amp;#10;        if (checkbox.checked) {&amp;#10;            window.consentGiven = true;&amp;#10;            if (consentContainer?.parentNode) consentContainer.parentNode.removeChild(consentContainer);&amp;#10;            document.body.style.overflow = 'auto';&amp;#10;        } else {&amp;#10;            alert(&quot;Please agree to the consent form before continuing.&quot;);&amp;#10;        }&amp;#10;    };&amp;#10;&amp;#10;    consentContainer.appendChild(info);&amp;#10;    consentContainer.appendChild(checkboxDiv);&amp;#10;    consentContainer.appendChild(button);&amp;#10;    document.body.appendChild(consentContainer);&amp;#10;    document.body.style.overflow = 'hidden';&amp;#10;    window.consentUIBuilt = true;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if (window.consentGiven) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="// Prevent continuation until user consents&amp;#10;if (window.userConsented) {&amp;#10;  continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="const el = document.getElementById('consentBox');&amp;#10;if (el &amp;&amp; el.parentNode) el.parentNode.removeChild(el);&amp;#10;document.body.style.overflow = 'auto';&amp;#10;" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="const existing = document.getElementById('consentContainer');&amp;#10;if (existing?.parentNode) {&amp;#10;    existing.parentNode.removeChild(existing);&amp;#10;    document.body.style.overflow = 'auto';&amp;#10;}&amp;#10;&amp;#10;// Optional: Save consent data&amp;#10;if (typeof psychoJS !== 'undefined') {&amp;#10;    psychoJS.experiment.addData(&quot;consent_given&quot;, true);&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="ConsentCode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_5" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_5" valType="code" updates="None" name="name"/>
+        <Param val="0" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="test">
+      <RoutineSettingsComponent name="test" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="test" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_4" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_4" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Any text&amp;#10;&amp;#10;including line breaks" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="ConsentForm"/>
+    <Routine name="Welcome"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('dummy', 1)])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="False" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="190" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="Questionaire"/>
+    <Routine name="thank_you"/>
+  </Flow>
+</PsychoPy2experiment>

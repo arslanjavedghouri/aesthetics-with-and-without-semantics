@@ -1,0 +1,23 @@
+# Analysis (alignment statistics, classifier, figures)
+numpy
+pandas
+scipy
+statsmodels
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+joblib
+tqdm
+pillow
+scikit-image
+# Caption generation and LLM rating (OpenAI API)
+openai==0.28.1   # the scripts use the pre-1.0 API (openai.ChatCompletion)
+# Image regeneration (GPU required)
+torch
+diffusers
+transformers
+accelerate
+sentencepiece
+# CLIP cosine similarity: install SpLiCE from https://github.com/AI4LIFE-GROUP/SpLiCE (provides `splice`, uses open_clip)
+open_clip_torch
