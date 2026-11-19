@@ -82,7 +82,7 @@ export OPENAI_API_KEY=...     # needed only for 02_captions and 05_llm_rating
 ## Data
 
 AVA (Murray et al., 2012) and MSC (Penacchio et al., 2026) images are not redistributed. Image IDs, captions,
-CLIP validation scores, LLM rating distributions, alignment results and QIP feature tables are available at: [DATA DOI].
+CLIP validation scores, LLM rating distributions, alignment results and QIP feature tables are available at: https://osf.io/8cvna/overview?view_only=c931f5e37b944d0394fac7a9d474ae45.
 
 ## Citation
 
