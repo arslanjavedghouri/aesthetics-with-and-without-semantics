@@ -86,8 +86,8 @@ CLIP validation scores, LLM rating distributions, alignment results and QIP feat
 
 ## Citation
 
-[Add citation when published.]
+
 
 ## License
 
-[Add license.]
+
